@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Kavivanar&display=swap");
+
+* {
+	font-family: "Kavivanar", cursive;
+}
+
+.container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+    padding: 5px;
+	width: 25%;
+	background-color: #000;
+	border-radius: 12px;
+}
+
+.img {
+	display: flex;
+	justify-content: center;
+}
+img {
+	width: 90%;
+	border: solid 10px #d9d9d9;
+}
+.top,
+.bottom {
+	border-radius: 10px;
+	margin: 15px;
+	background-color: #d9d9d9;
+}
+
+.top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top p {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 32px;
+	margin: 0;
+	padding: 4%;
+	border: dashed 5px #000;
+}
+
+.bottom {
+	background-color: #d9d9d9;
+	border: 5px transparent solid;
+	border-image: radial-gradient(
+		50% 138.22% at 50% 50%,
+		#000000 0%,
+		#0084a8 20%,
+		#0015ff 40%,
+		#000000 60%,
+		#0084a8 80%,
+		#0015ff 100%
+	);
+    border-image-slice: 1;
+    border-image-outset: 9px;
+}
+
+.info {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.infos {
+	padding: 4px 8px 4px 8px;
+	border-radius: 8px;
+	width: fit-content;
+	border: 1px solid #000;
+}
