@@ -12,7 +12,7 @@
 }
 
 .card {
-    padding: 5px;
+	padding: 5px;
 	width: 25%;
 	background-color: #000;
 	border-radius: 12px;
@@ -50,10 +50,8 @@ h2 {
 	border: dashed 5px #000;
 }
 
-.bottom {
-	background-color: #d9d9d9;
-	border: 5px transparent solid;
-	border-image: radial-gradient(
+.background {
+	background: radial-gradient(
 		50% 138.22% at 50% 50%,
 		#000000 0%,
 		#0084a8 20%,
@@ -62,8 +60,21 @@ h2 {
 		#0084a8 80%,
 		#0015ff 100%
 	);
-    border-image-slice: 1;
-    border-image-outset: 9px;
+    height: fit-content;
+    margin: 10px;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.bottom {
+    margin: 10px;
+	background-color: #d9d9d9;
+	border: 5px #000 solid;
+	border-radius: 10px;
+}
+
+.bottomp{
+    margin: 10px;
 }
 
 .info {
